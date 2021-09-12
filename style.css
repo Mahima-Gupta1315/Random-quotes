@@ -1,0 +1,139 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0; 
+}
+
+h2{
+	font-family: cursive;
+	font-size: 27px;
+}
+
+h1{
+	color:#fff;
+	margin-left: 460px;
+	padding: 30px;
+	font-family: cursive;
+	
+}
+
+.header{
+	background-color: #002240;
+}
+
+.container{
+	width: 100%;
+	margin:auto;
+	padding: 100px ;
+	background: radial-gradient(#fff, #ffd6d6);
+	
+}
+
+
+
+/*********** card *************/
+
+
+.column {
+  float: left;
+  width: 50%;
+	padding: 30px 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+	height: 280px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  text-align: center;
+  background: radial-gradient(#fff, #ffd6d6);
+  border-radius: 10px;
+}
+
+.quote{
+	font-size: 21px;
+
+}
+
+.quote-buttons .btn button{
+	margin-left: -16px;
+	margin-top:10px ;
+	width:107% ;
+	border:none ;
+	outline: none;
+	padding: 10px 13px;
+	background-color: #455261;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+
+ .quote-buttons .btn button:active{
+	background-color: blueviolet;
+}
+
+
+.icon-quote{
+	text-align: center;
+	font-size: 18px;
+	color: #22313f;
+	height: 42px;
+	margin-top: 45px;
+}
+
+.icon-quote .icon{
+	margin-right: 5px;
+
+}
+
+.author{
+	text-align: right;
+	margin-top: 70px;
+	font-size: 22px;
+	color: #22313f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
